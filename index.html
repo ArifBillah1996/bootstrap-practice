@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../bootstrap-practice/css/style.css">
 </head>
 <body>
-<div class="container">
+<div class="container-fluid d-flex justify-content-center navbar">
     <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
         <div class="container">
           <a class="navbar-brand" href="#"><i class="fas fa-feather-alt"></i><span> IBN SAAD</span></a>
@@ -23,10 +23,10 @@
                 <a class="nav-link text-primary" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-primary" href="#">Features</a>
+                <a class="nav-link text-primary" href="#">Books</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-primary" href="#">Pricing</a>
+                <a class="nav-link text-primary" href="#">Lectures</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-primary" href="#" tabindex="-1" aria-disabled="true">Contect Us</a>
@@ -36,45 +36,46 @@
         </div>
       </nav>
 </div>
-<div class="container">
-  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="imeges/tibb1.jpeg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="imeges/amolejindegi.jpeg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="imeges/tibb1.jpeg" class="d-block w-100" alt="...">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-</div>
-<div class="container writer">
-<div class="row">
-  <div class="col-md-7">
-    <img src="imeges/shamsuddin.png" class="d-block w-100 badge bg-dark" alt="">
-  </div>
-  <div class="col-md-5">
-    <h1 class="text-center mt-5">Ibne Saad</h1>
-    <p class="mt-5 about-writer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, explicabo exercitationem itaque nemo esse consectetur fuga ipsum officia ut voluptas dolorem velit iste sequi maxime quibusdam aliquid dicta eveniet molestias? <br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et libero tempore sapiente saepe! Reiciendis dolor ad, fuga magnam corrupti nemo nisi et nesciunt harum ea, neque incidunt? Minima, aut impedit.</p>
 
+<div class="container-fluid writer">
+
+  <div class="about">
+    <h1 class="text-center">IBNE SAAD</h1>
+    <hr class="">
+    <p class="mt-5 about-writer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, explicabo exercitationem itaque nemo esse consectetur fuga ipsum officia ut voluptas dolorem velit iste sequi maxime quibusdam aliquid dicta eveniet molestias? <br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et libero tempore sapiente saepe! Reiciendis dolor ad, fuga magnam corrupti nemo nisi et nesciunt harum ea, neque incidunt? Minima, aut impedit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nemo laboriosam expedita sunt doloribus fuga quod culpa optio nesciunt voluptatem, neque praesentium quisquam ab id aliquam, eaque cum totam ex!</p>
+    <button type="button" class="btn btn-success d-flex justify-content-center button">More..</button>
   </div>
 </div>
+</div>
+<div class="container">
+  <h1 class="text-center">Some Books</h1>
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title d-flex justify-content-center display-4">Book1</h5>
+          <img class="img-fluid" src="imeges/fortry2.jpg" alt="">
+          <p class="card-text">With supporting text below as a natural lead-in to additional content. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione asperiores tempora ab, et sequi iusto temporibus quibusdam architecto aspernatur explicabo impedit magni debitis, quos nobis nisi odit veritatis maiores sed. </p>
+          <a href="#" class="btn btn-primary d-flex justify-content-center read-more-btn">Read More</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title d-flex justify-content-center display-4 ">Book 2</h5>
+          <img class="img-fluid" src="imeges/fortry3.jpg" alt="">
+          <p class="card-text">With supporting text below as a natural lead-in to additional content. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi suscipit consectetur illum at ex rerum, voluptatibus porro corrupti sunt. Corrupti dicta, ipsum totam illum consequuntur aut. Mollitia accusamus sit iste!</p>
+          <a href="read.html" class="btn btn-primary d-flex justify-content-center read-more-btn">Read More</a>
+        </div>
+      </div>
+    </div> 
+  </div>
+</div>
+
+
 </div>
 </body>
 </html>
